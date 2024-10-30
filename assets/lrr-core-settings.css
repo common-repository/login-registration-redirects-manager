@@ -1,0 +1,57 @@
+.setting-col ul{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.lrr-repeaters-field .selectize-control {
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lrr-repeaters-user_role.lrr-repeaters-field .selectize-control {
+    width: 50%;
+}
+
+.lrr-repeaters-field * {
+    vertical-align: middle;
+
+}
+
+.selectize-input:not(.has-items){
+    border: #ff4b4b 1px solid;
+}
+
+.lrr-repeater-field__row {
+    position: relative;
+}
+
+.lrr-repeater-field__row_actions {
+    width: 25px;
+    position: absolute;
+    left: -23px;
+    top: 24px;
+}
+.js-lrr-delete-row {
+    text-decoration: none;
+}
+.js-lrr-sort-row{
+    display: none;
+    text-decoration: none;
+}
+.lrr-repeater-field__row:hover .js-lrr-sort-row{
+    width: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+}
+
+.lrr-redirects-field__redirect .redirect-url {
+    width: 45%;
+}
+/*==*/
+
+.hr-blue {
+    border-top-color: #668bba;
+}
